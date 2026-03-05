@@ -1,8 +1,6 @@
-### Q3 – BFS and DFS Implementation (Uninformed Search)
+# Q3 – BFS and DFS Implementation (Uninformed Search)
 
-# Aim
-
-To implement Breadth First Search (BFS) and Depth First Search (DFS) algorithms for an Uninformed Search Problem.
+# Aim : To implement Breadth First Search (BFS) and Depth First Search (DFS) algorithms for an Uninformed Search Problem.
 
 # Problem Used: Water Jug Problem
 
@@ -53,7 +51,7 @@ x = 2  OR  y = 2
 Meaning one of the jugs contains exactly 2 litres of water.
 
 
-## Algorithms Implemented
+# Algorithms Implemented:
 
 # Breadth First Search (BFS)
 
@@ -61,15 +59,7 @@ Meaning one of the jugs contains exactly 2 litres of water.
 * Uses a queue
 * Guarantees shortest path to solution
 
-# Depth First Search (DFS)
-
- Explores nodes deep first
- Uses recursion or stack
- Uses less memory but may not give shortest path
-
-
-# Output BFS:
-BFS Solution:
+#Output BFS:
 (0 , 0)
 (4 , 0)
 (0 , 3)
@@ -82,6 +72,14 @@ BFS Solution:
 (4 , 2)
 Target reached
 
+
+# Depth First Search (DFS)
+
+ Explores nodes deep first
+ Uses recursion or stack
+ Uses less memory but may not give shortest path
+
+
 #OUTPUT DFS:
 (0 , 0)
 (4 , 0)
@@ -92,7 +90,7 @@ Target reached
 (4 , 2)
 Target reached
 
-##Comparison
+# Comparison
 
 | Algorithm | Data Structure    | Memory | Path Optimal |
 | --------- | ----------------- | ------ | ------------ |
