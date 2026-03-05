@@ -90,6 +90,15 @@ Target reached
 (4 , 2)
 Target reached
 
+## Variants of BFS and DFS
+
+| Algorithm | Variant | Description |
+|----------|---------|-------------|
+| BFS | Level Order BFS | Explores nodes level by level in tree structures |
+| BFS | Bidirectional BFS | Performs search from both start and goal nodes |
+| DFS | Depth Limited Search (DLS) | DFS with a fixed depth limit |
+| DFS | Iterative Deepening DFS (IDDFS) | Repeated DFS with increasing depth limits |
+
 # Comparison
 
 | Algorithm | Data Structure    | Memory | Path Optimal |
