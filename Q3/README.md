@@ -106,6 +106,15 @@ Target reached
 | BFS       | Queue             | High   | Yes          |
 | DFS       | Stack / Recursion | Low    | Not always   |
 
+## Comparison of BFS, DFS and Their Variants
+
+| Algorithm | Variant | Data Structure Used | Memory Usage | Path Optimal | Description |
+|----------|---------|--------------------|--------------|--------------|-------------|
+| BFS | Standard BFS | Queue | High | Yes | Explores nodes level by level |
+| BFS | Bidirectional BFS | Two Queues | Medium | Yes | Searches from both start and goal nodes |
+| DFS | Standard DFS | Stack / Recursion | Low | Not always | Explores nodes deeply before backtracking |
+| DFS | Depth Limited Search (DLS) | Stack / Recursion | Low | Not always | DFS with a fixed depth limit |
+| DFS | Iterative Deepening DFS (IDDFS) | Stack | Medium | Yes | Repeated DFS with increasing depth limits |
 
 # Conclusion
 
